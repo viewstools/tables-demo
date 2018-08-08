@@ -1,0 +1,10 @@
+ImagePlaceholder Image
+alignSelf < auto
+backgroundColor < transparent
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+source < ./image-placeholder.jpg
+width < 620
+height < 387

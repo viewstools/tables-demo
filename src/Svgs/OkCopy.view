@@ -1,0 +1,17 @@
+OkCopy Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 50 50
+width < 50
+height < 50
+SvgPath
+fill < #FFF
+stroke < #231F20
+strokeWidth 6
+strokeLinecap round
+strokeMiterlimit 10
+d M47.4 10L18.3 39.1 2.6 23.4

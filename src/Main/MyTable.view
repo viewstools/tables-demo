@@ -1,0 +1,53 @@
+MyTable Vertical
+flexGrow 1
+flexShrink 1
+flexBasis auto
+Text
+onWhen <isLoading
+text loading...
+
+TheTable Table
+onWhen <!isLoading
+from <
+marginLeft <marginLeft
+headerHeight 26
+rowHeight 20
+rowColor #323232
+rowBackgroundColor #f2f2f2
+rowColorAlternate #ff0000
+rowBackgroundColorAlternate #fafafa
+when <hover
+rowColor #f2f2f2
+rowBackgroundColor #323232
+rowColorAlternate #fafafa
+rowBackgroundColorAlternate #ff0000
+Name Column
+key name
+width 90
+Header
+isHeader true
+text Name
+
+Cell
+isCell true
+
+
+Location Column
+key location
+width 120
+Header
+isHeader true
+text Location
+
+Cell
+isCell true
+
+
+Description Column
+key description
+Header
+isHeader true
+text Description
+
+Cell
+isCell true
