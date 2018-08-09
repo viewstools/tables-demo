@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@viewstools/animations": "^1.0.4",
+    "@viewstools/tables": "^1.0.0",
     "emotion": "^9.2.6",
     "faker": "^4.1.0",
     "prop-types": "^15.6.2",

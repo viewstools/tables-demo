@@ -1,4 +1,8 @@
 MyTable Vertical
+marginLeft 50
+marginTop 50
+marginBottom 50
+marginRight 50
 flexGrow 1
 flexShrink 1
 flexBasis auto
@@ -6,12 +10,11 @@ Text
 onWhen <isLoading
 text loading...
 
-TheTable Table
+Table
 onWhen <!isLoading
 from <
-marginLeft <marginLeft
 headerHeight 26
-rowHeight 20
+rowHeight 22
 rowColor #323232
 rowBackgroundColor #f2f2f2
 rowColorAlternate #ff0000
@@ -24,9 +27,9 @@ rowBackgroundColorAlternate #ff0000
 Name Column
 key name
 width 90
-Header
+MyHeader
 isHeader true
-text Name
+text Name!!!
 
 Cell
 isCell true
@@ -34,8 +37,8 @@ isCell true
 
 Location Column
 key location
-width 120
-Header
+width 160
+MyHeader
 isHeader true
 text Location
 
@@ -49,5 +52,5 @@ Header
 isHeader true
 text Description
 
-Cell
+MyCell
 isCell true

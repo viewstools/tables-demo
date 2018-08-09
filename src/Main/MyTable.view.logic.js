@@ -7,7 +7,7 @@ class MyTableLogic extends React.Component {
   }
 
   componentDidMount() {
-    fetch('/data.json')
+    fetch('/data-small.json')
       .then(res => res.json())
       .then(data => this.setState({ from: data, isLoading: false }))
   }
