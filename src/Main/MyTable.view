@@ -14,19 +14,20 @@ Table
 onWhen <!isLoading
 from <
 headerHeight 26
-rowHeight 22
+rowHeight 23
 rowColor #323232
-rowBackgroundColor #f2f2f2
-rowColorAlternate #ff0000
-rowBackgroundColorAlternate #fafafa
-when <hover
-rowColor #f2f2f2
-rowBackgroundColor #323232
-rowColorAlternate #fafafa
-rowBackgroundColorAlternate #ff0000
+# rowBackgroundColor #f2f2f2
+# rowColorAlternate #ff0000
+# rowBackgroundColorAlternate #fafafa
+# when <hover
+# rowColor #f2f2f2
+# rowBackgroundColor #323232
+# rowColorAlternate #fafafa
+# rowBackgroundColorAlternate #ff0000
 Name Column
 key name
 width 90
+justifyContent center
 MyHeader
 isHeader true
 text Name!!!
@@ -38,6 +39,7 @@ isCell true
 Location Column
 key location
 width 160
+justifyContent center
 MyHeader
 isHeader true
 text Location
@@ -48,6 +50,7 @@ isCell true
 
 Description Column
 key description
+justifyContent center
 Header
 isHeader true
 text Description
